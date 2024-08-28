@@ -17,12 +17,13 @@ This project aims to predict student performance based on various input features
 data_ingestion.py: Data ingestion script for reading and splitting data.
 data_transformation.py: Data transformation script for preprocessing data.
 model_trainer.py: Model training script for training and evaluating models.
-Getting Started
-Prerequisites
-Make sure you have Python 3.7 or higher installed. You can install the required packages using pip:
+## Getting Started
 
-bash
-Copy code
+### Prerequisites
+
+Ensure Python 3.7 or higher is installed. Install the required packages by running:
+
+```bash
 pip install -r requirements.txt
 Setup
 Clone the repository:
