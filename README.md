@@ -95,4 +95,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ```
 
-Replace `https://github.com/your-username/your-repo.git` with the URL of your actual repository and adjust any details to fit your specific project needs.
+`https://github.com/ali-samin/Machine_Learning`
