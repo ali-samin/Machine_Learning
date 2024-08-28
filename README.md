@@ -25,7 +25,7 @@ Ensure Python 3.7 or higher is installed. Install the required packages by runni
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 ### Setup
 
