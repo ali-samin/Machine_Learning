@@ -25,54 +25,74 @@ Ensure Python 3.7 or higher is installed. Install the required packages by runni
 
 ```bash
 pip install -r requirements.txt
-Setup
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-Install the required packages:
 
-bash
-Copy code
-pip install -r requirements.txt
-Run the data ingestion script to prepare the data:
+### Setup
 
-bash
-Copy code
-python src/data_ingestion.py
-Run the data transformation script to preprocess the data:
+1. **Clone the repository**:
 
-bash
-Copy code
-python src/data_transformation.py
-Train the models:
+    ```bash
+    git clone https://github.com/your-username/your-repo.git
+    cd your-repo
+    ```
 
-bash
-Copy code
-python src/model_trainer.py
-Start the Flask web application:
+2. **Install dependencies**:
 
-bash
-Copy code
-python src/app.py
-Open a web browser and go to http://127.0.0.1:5000/ to access the web application.
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-Usage
-On the home page, fill out the form with the student's details, including gender, race/ethnicity, parental education level, lunch type, test preparation course, and scores in reading and writing.
-Click the "Predict your Maths Score" button to get a prediction of the student's performance.
-Contributing
-If you would like to contribute to this project, please follow these steps:
+3. **Run data ingestion**:
 
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Make your changes and commit them (git commit -am 'Add new feature').
-Push to the branch (git push origin feature/your-feature).
-Create a new Pull Request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+    ```bash
+    python src/data_ingestion.py
+    ```
 
-Acknowledgments
-The project uses various machine learning models including RandomForestRegressor, XGBRegressor, and CatBoostRegressor.
-Special thanks to the contributors and libraries used in this project, including Scikit-learn, XGBoost, CatBoost, and Flask.
+4. **Run data transformation**:
+
+    ```bash
+    python src/data_transformation.py
+    ```
+
+5. **Train the models**:
+
+    ```bash
+    python src/model_trainer.py
+    ```
+
+6. **Start the Flask application**:
+
+    ```bash
+    python src/app.py
+    ```
+
+7. **Access the web application** at `http://127.0.0.1:5000/`.
+
+## Usage
+
+1. Navigate to the web application URL.
+2. Fill out the form with the student's details.
+3. Click "Predict your Maths Score" to get the prediction.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make changes and commit them (`git commit -am 'Add new feature'`).
+4. Push the branch (`git push origin feature/your-feature`).
+5. Create a Pull Request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- The project utilizes machine learning models from Scikit-learn, XGBoost, and CatBoost.
+- Thanks to the libraries and contributors that made this project possible.
+
+```
+
+Replace `https://github.com/your-username/your-repo.git` with the URL of your actual repository and adjust any details to fit your specific project needs.
