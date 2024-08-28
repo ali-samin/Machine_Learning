@@ -91,7 +91,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Acknowledgments
 
 - The project utilizes machine learning models from Scikit-learn, XGBoost, and CatBoost.
-- Thanks to the libraries and contributors that made this project possible.
 
 ```
 
