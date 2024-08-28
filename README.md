@@ -95,4 +95,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ```
 
-`https://github.com/ali-samin/Machine_Learning`
+https://github.com/ali-samin/Machine_Learning
