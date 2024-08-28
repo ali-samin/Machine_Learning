@@ -1,15 +1,19 @@
-Student Performance Prediction
-This project aims to predict student performance based on various features such as gender, race/ethnicity, parental education level, lunch type, test preparation course, and scores in reading and writing. The prediction is achieved using machine learning models that are trained on historical student performance data.
+# Student Performance Prediction
 
-Project Structure
-data_ingestion.py: Handles data ingestion, including reading and splitting the dataset into training and test sets.
-data_transformation.py: Transforms the raw data by handling missing values, encoding categorical variables, and scaling numerical features. Saves the preprocessing object for future use.
-model_trainer.py: Trains multiple regression models and selects the best model based on performance metrics.
-predict_pipeline.py: Loads the trained model and preprocessing object to make predictions on new student data.
-app.py: A Flask web application that allows users to input student data through a web form and get predictions about their performance.
-home.html: HTML form for user input.
-requirements.txt: List of dependencies required for the project.
-setup.py: Script for setting up the project environment.
+## Overview
+
+This project aims to predict student performance based on various input features such as gender, race/ethnicity, parental education level, lunch type, test preparation course, and scores in reading and writing. The solution utilizes machine learning models to provide predictions for student math scores.
+
+## Project Structure
+
+- **`data_ingestion.py`**: Handles data ingestion by reading and splitting the dataset into training and test sets.
+- **`data_transformation.py`**: Preprocesses data, including handling missing values, encoding categorical variables, and scaling numerical features. Saves the preprocessing object.
+- **`model_trainer.py`**: Trains and evaluates multiple regression models, selecting the best-performing model.
+- **`predict_pipeline.py`**: Utilizes the trained model and preprocessing object to make predictions on new data.
+- **`app.py`**: A Flask web application that accepts user input and displays predictions.
+- **`home.html`**: HTML form for user input.
+- **`requirements.txt`**: List of Python package dependencies.
+- **`setup.py`**: Script for setting up the project environment.
 data_ingestion.py: Data ingestion script for reading and splitting data.
 data_transformation.py: Data transformation script for preprocessing data.
 model_trainer.py: Model training script for training and evaluating models.
